@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como hospedar no Github Passo a Passo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Passos para hospedar um Projeto no GitHub Pages</h1>
+        <ol>
+            <li>Crie um repositorio no GitHub com o mesmo nome do seu projeto</li>
+            <li>No terminal, inicialize o repositorio local com <span style="color: lightblue;">git init</span></li>
+            <li>Altere o nome da branch principal para <span style="color: lightblue;">main</span></li>
+            <li>Adicione os arquivos com <span style="color: lightblue;">git add .</span> e faça o commit com <span style="color: lightblue;">git commit -m "Nome Qualquer"</span></li>
+            <li>Conecte ao repositorio remoto com:
+                <br>
+                <span style="color: lightblue;">    git remote add origin "URL do repositorio"</span></li>
+            <li>Envie os arquivos <span style="color: lightblue;">git push -u origin main</span></li>
+            <li>No GitHub, <span style="font-weight: bold;">vá em Settings > Pages</span></li>
+            <li> Em branch, selecione <span style="color: lightblue;">main</span> e a pasta <span style="color: lightblue;">/ (root)</span> clique em <span style="font-weight: bold;">Save</span> </li>
+            <li>Após alguns segundos, seu site estará disponivel no link exibido em "Pages"</li>
+        </ol>
+    </main>
+</body>
+</html>
